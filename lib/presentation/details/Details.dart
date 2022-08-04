@@ -6,6 +6,7 @@ import 'TextFieldWithData.dart';
 
 class Details extends StatelessWidget {
   final UserModel users;
+
   const Details({Key? key, required this.users}) : super(key: key);
 
   @override
@@ -25,8 +26,8 @@ class Details extends StatelessWidget {
                 Container(
                   margin: size.width >= 500
                       ? EdgeInsets.only(
-                          top: (size.width * 0.15) - 1,
-                          left: (size.width * 0.4) - 10)
+                          top: (size.width * 0.01) - 1,
+                          left: (size.width * 0.09) - 10)
                       : EdgeInsets.only(
                           top: (size.width * 0.09) - 1,
                           left: (size.width * 0.04) - 10),

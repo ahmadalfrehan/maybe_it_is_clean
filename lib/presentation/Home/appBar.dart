@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 class AppBarForMyApp {
-  static AppBar appBarForMyApp(BuildContext context,
-      {required String textAppBar}) {
+  static AppBar appBarForMyApp(
+    BuildContext context, {
+    required String textAppBar,
+  }) {
     return AppBar(
       automaticallyImplyLeading: false,
       title: Text(
         textAppBar,
-        style: Theme.of(context).textTheme.headline6,
+        style: Theme.of(context).textTheme.headline3,
       ),
       actions: [
         IconButton(

@@ -46,6 +46,11 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.w800,
             fontSize: 17,
           ),
+          headline3: TextStyle(
+            color: Colors.black,
+            fontSize: 20,
+            fontWeight: FontWeight.w300,
+          ),
         ),
       ),
       home: const Directionality(
