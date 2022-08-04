@@ -75,9 +75,7 @@ class HomeScreen extends StatelessWidget {
                           'https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?w=2000',
                         ),
                       ),
-                      const SizedBox(
-                        width: 5,
-                      ),
+                      const SizedBox(width: 5),
                       Text(
                         users[index].name.toString().length < 10
                             ? users[index].name.toString()

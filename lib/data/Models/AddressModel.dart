@@ -1,4 +1,4 @@
-import 'package:lujain/domain/entites/Address.dart';
+import 'package:lujain/domain/entities/Address.dart';
 
 class AddressModel extends Address {
   AddressModel({

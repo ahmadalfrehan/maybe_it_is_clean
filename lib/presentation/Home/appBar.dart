@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lujain/presentation/details/Details.dart';
 
 class AppBarForMyApp {
   static AppBar appBarForMyApp(BuildContext context,
@@ -13,8 +12,7 @@ class AppBarForMyApp {
       actions: [
         IconButton(
           onPressed: () {
-            if (textAppBar == 'شؤون الموظفين') {
-            } else {
+            if (textAppBar != 'شؤون الموظفين') {
               Navigator.of(context).pop();
             }
           },

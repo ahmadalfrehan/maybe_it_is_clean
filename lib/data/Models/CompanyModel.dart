@@ -1,4 +1,4 @@
-import 'package:lujain/domain/entites/Company.dart';
+import 'package:lujain/domain/entities/Company.dart';
 
 class CompanyModel extends Company {
   CompanyModel({

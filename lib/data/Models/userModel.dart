@@ -1,6 +1,6 @@
 import 'package:lujain/data/Models/AddressModel.dart';
-import 'package:lujain/data/Models/ComanyModel.dart';
-import 'package:lujain/domain/entites/user.dart';
+import 'package:lujain/data/Models/CompanyModel.dart';
+import 'package:lujain/domain/entities/user.dart';
 
 class UserModel extends User {
   UserModel({
